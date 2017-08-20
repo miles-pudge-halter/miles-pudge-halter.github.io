@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/png" href="fav.png"/>
+    <link rel="shortcut icon" type="image/png" href="fav.png" />
     <title>aYoe</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.css">
@@ -30,28 +30,37 @@
                 <!--<div class="ui six wide centered column">
                     <img class="ui fluid image myContent" src="justame.svg">
                 </div>-->
-                <div class="ui six wide centered column">
+                <div class="ui seven wide centered column">
                     <div class="myContent">
                         <a target="_blank" href="https://www.facebook.com/anntphyo.thwin" class="link link--nukun">aYoe</a>
-                        <h2>
+                        <h3>
                             <a target="_blank" href="https://github.com/miles-pudge-halter/" class="effect-box">Codes <i class="github icon"></i></a>,
-                        </h2>
-                        <h2>
+                        </h3>
+                        <h3>
                             <a target="_blank" href="https://www.instagram.com/bone_bone.pudge/" class="effect-box">draws <i class="instagram icon"></i></a>,
-                        </h2>
-                        <h2>
-                            <a target="_blank" class="effect-box">loves coffee <i class="coffee icon"></i></a>,
-                        </h2>
-                        <h2>
-                            <a target="_blank" class="effect-box">&amp; dogs <i class="empty heart icon"></i></a>,
-                        </h2>
+                        </h3>
+                        <h3>
+                            <a target="_blank" class="coffee_pop effect-box">loves coffee <i class="coffee icon"></i></a>,
+                        </h3>
+                        <h3>
+                            <a target="_blank" class="dog_pop effect-box">&amp; dogs <i class="empty heart icon"></i></a>,
+                        </h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <script>
+        $('.dog_pop').popup({
+            content:"especially large, furry, huggy ones.",
+            position: "left center"
+        });
+        $('.coffee_pop').popup({
+            content:"strong & sweet",
+            position: "right center"
+        });
+    </script>
 
 </body>
 

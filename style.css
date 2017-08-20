@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 body {
-    background: #00beba;
+    background: #232741;
 }
 .myContent{
     margin-top: 50%;
@@ -46,7 +46,7 @@ a:hover{
     /*transition:all 1s ease-in-out;*/
 }
 
-h2 a {
+h3 a {
   color: #fff;
   font-size: 1.5em;
   text-decoration: none;
@@ -344,7 +344,7 @@ a.effect-shine:hover {
 }
 
 .link--nukun:hover {
-	color: #1e1a1b;
+	color: #00beba;
 }
 
 .link--nukun::before,
