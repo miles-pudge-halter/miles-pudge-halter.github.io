@@ -8,8 +8,9 @@ body {
     color: #111;
 }
 @media screen and (max-width: 768px) {
-	img{
-		align-self: left;
+	#myContainer{
+		margin-top:10%;
+		margin-right: 10%;
 	}
 }
 @media screen and (min-width: 769px) {
