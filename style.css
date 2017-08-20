@@ -1,19 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 body {
-    background: #232741;
+    background: #fefefe;
 }
 .myContent{
-    margin-top: 50%;
-    color: #fff;
+	margin-top: 60%;
+    color: #111;
+}
+@media screen and (max-width: 768px) {
+	img{
+		align-self: left;
+	}
 }
 @media screen and (min-width: 769px) {
     .myContent{
-        margin-top: 50%;
+        margin-top: 40%;
     }
 }
 a:hover{
-    color:#fff
+    color:#00beba
 }
 
 .wrapper {
@@ -26,7 +31,6 @@ a:hover{
 
 .headerx {
     /*background :#ededed;*/
-
     height: 100vh;
     width: 100vw;
     display: -webkit-box;
@@ -47,7 +51,7 @@ a:hover{
 }
 
 h3 a {
-  color: #fff;
+  color: #111;
   font-size: 1.5em;
   text-decoration: none;
   display: inline-block;
@@ -335,7 +339,7 @@ a.effect-shine:hover {
 
 /* Nukun */
 .link--nukun {
-	color: #fff;
+	color: #111;
     font-family: 'Dosis', sans-serif;
 	overflow: hidden;
 	padding: 10px 0;
